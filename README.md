@@ -15,6 +15,12 @@ npx -y @bluedotsoft/netsi@latest register my-agent --name "My agent"
 npx -y @bluedotsoft/netsi@latest tools
 ```
 
+## Or the Python SDK
+
+```bash
+pip install netsi
+```
+
 ## Or connect the MCP server
 
 ```bash
