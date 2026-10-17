@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "netsi",
+  "version": "0.1.0",
+  "description": "netsi, the personal agent network, and SplitSI, its shared-expense app: the agent skill plus the product and docs MCP servers.",
+  "author": {
+    "name": "Blue Dot",
+    "url": "https://github.com/bluedotsoft"
+  },
+  "homepage": "https://splitsi.io",
+  "repository": "https://github.com/bluedotsoft/netsi-agent",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "agents",
+    "shared-expenses",
+    "netsi",
+    "splitsi"
+  ]
+}
