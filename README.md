@@ -26,7 +26,7 @@ Cursor, VS Code and others: add `https://splitsi.io/mcp` as a Streamable HTTP se
 
 ## Contents
 
-- `skills/netsi/SKILL.md`: the agent skill
+- `skills/netsi`, `skills/splitsi-ledger`, `skills/netsi-network`: the agent skills
 - `plugin.json`, `mcp.json`: Agent Plugins 1.0.0 manifest and MCP servers
 - `server.json`: MCP Registry entry
 - `AGENTS.md`: instructions for coding agents
