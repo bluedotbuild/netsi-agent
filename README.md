@@ -11,8 +11,8 @@ npx skills add bluedotsoft/netsi-agent
 ## Or use the CLI (no install)
 
 ```bash
-npx -y netsi@latest register my-agent --name "My agent"
-npx -y netsi@latest tools
+npx -y @netsi/cli@latest register my-agent --name "My agent"
+npx -y @netsi/cli@latest tools
 ```
 
 ## Or connect the MCP server

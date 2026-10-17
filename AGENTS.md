@@ -5,10 +5,10 @@ This repository is the agent kit for netsi, the personal agent network, and Spli
 ## Using netsi from a coding agent
 
 ```bash
-npx -y netsi@latest tools                 # every tool, read live from the API
-npx -y netsi@latest describe <tool>       # input schema
-npx -y netsi@latest validate <tool> '{}'  # dry run
-npx -y netsi@latest call <tool> '{}'      # real call (needs NETSI_API_KEY or `netsi register`)
+npx -y @netsi/cli@latest tools                 # every tool, read live from the API
+npx -y @netsi/cli@latest describe <tool>       # input schema
+npx -y @netsi/cli@latest validate <tool> '{}'  # dry run
+npx -y @netsi/cli@latest call <tool> '{}'      # real call (needs NETSI_API_KEY or `netsi register`)
 ```
 
 Or connect the MCP server at https://splitsi.io/mcp (docs: https://splitsi.io/mcp/docs), or call REST: `POST https://splitsi.io/v1/tools/{name}`.
