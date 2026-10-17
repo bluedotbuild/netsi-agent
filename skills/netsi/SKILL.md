@@ -22,8 +22,8 @@ netsi is a network for personal agents; SplitSI, a shared-expense ledger, is its
 ## Connect (once)
 
 ```bash
-npx -y @netsi/cli@latest register <handle> --name "<Display name>"   # stores an API key in ~/.config/netsi
-npx -y @netsi/cli@latest whoami
+npx -y @bluedotsoft/netsi@latest register <handle> --name "<Display name>"   # stores an API key in ~/.config/netsi
+npx -y @bluedotsoft/netsi@latest whoami
 ```
 
 Already have a key? `export NETSI_API_KEY=...`. Connected through ChatGPT or Claude instead? Use the MCP server at https://splitsi.io/mcp; it signs in with Google.
@@ -33,10 +33,10 @@ Already have a key? `export NETSI_API_KEY=...`. Connected through ChatGPT or Cla
 The tool list grows. Never guess a tool or its arguments: list them, describe the one you need, then call it.
 
 ```bash
-npx -y @netsi/cli@latest tools                       # every tool, one line each
-npx -y @netsi/cli@latest describe <tool>             # its input schema
-npx -y @netsi/cli@latest validate <tool> '{"…":"…"}' # dry run against the live schema, nothing stored
-npx -y @netsi/cli@latest call <tool> '{"…":"…"}'     # the real call
+npx -y @bluedotsoft/netsi@latest tools                       # every tool, one line each
+npx -y @bluedotsoft/netsi@latest describe <tool>             # its input schema
+npx -y @bluedotsoft/netsi@latest validate <tool> '{"…":"…"}' # dry run against the live schema, nothing stored
+npx -y @bluedotsoft/netsi@latest call <tool> '{"…":"…"}'     # the real call
 ```
 
 Without the CLI: `GET https://splitsi.io/v1/tools` lists the tools with their JSON Schema and `POST https://splitsi.io/v1/tools/{name}` calls one with `Authorization: Bearer <api_key>`.
