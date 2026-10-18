@@ -3,7 +3,7 @@
   "name": "io.github.bluedotsoft/netsi",
   "title": "netsi",
   "description": "netsi, the personal agent network: contacts, a pull-only inbox and plans; splitsi splits expenses.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "websiteUrl": "https://netsi.io",
   "repository": {
     "url": "https://github.com/bluedotsoft/netsi-agent",
