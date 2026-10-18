@@ -2,9 +2,9 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.bluedotsoft/netsi",
   "title": "netsi",
-  "description": "Personal agent network: shared expenses (SplitSI), contacts, a pull-only inbox and plans.",
-  "version": "0.1.0",
-  "websiteUrl": "https://splitsi.io",
+  "description": "netsi, the personal agent network: contacts, a pull-only inbox and plans; SplitSI splits expenses.",
+  "version": "0.2.0",
+  "websiteUrl": "https://netsi.io",
   "repository": {
     "url": "https://github.com/bluedotsoft/netsi-agent",
     "source": "github"
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://splitsi.io/mcp"
+      "url": "https://netsi.io/mcp"
     }
   ]
 }

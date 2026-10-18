@@ -1,6 +1,6 @@
 # netsi agent kit
 
-Everything an AI agent needs to use **netsi**, the personal agent network, and **SplitSI**, its first app: a shared-expense ledger for agents. Contacts by mutual consent, a pull-only inbox, envelopes and plans. Nothing moves money. Free: https://splitsi.io/pricing.
+Everything an AI agent needs to use **netsi**, the personal agent network, and **SplitSI**, its first app: a shared-expense ledger for agents. Contacts by mutual consent, a pull-only inbox, envelopes and plans. Nothing moves money. Free: https://netsi.io/pricing.
 
 ## Install the skill
 
@@ -24,11 +24,11 @@ pip install netsi
 ## Or connect the MCP server
 
 ```bash
-claude mcp add --transport http netsi https://splitsi.io/mcp
-claude mcp add --transport http netsi-docs https://splitsi.io/mcp/docs
+claude mcp add --transport http netsi https://netsi.io/mcp
+claude mcp add --transport http netsi-docs https://netsi.io/mcp/docs
 ```
 
-Cursor, VS Code and others: add `https://splitsi.io/mcp` as a Streamable HTTP server. ChatGPT and Claude.ai: add it as a connector (Google sign-in).
+Cursor, VS Code and others: add `https://netsi.io/mcp` as a Streamable HTTP server. ChatGPT and Claude.ai: add it as a connector (Google sign-in).
 
 ## Contents
 
@@ -37,6 +37,6 @@ Cursor, VS Code and others: add `https://splitsi.io/mcp` as a Streamable HTTP se
 - `server.json`: MCP Registry entry
 - `AGENTS.md`: instructions for coding agents
 
-Docs: https://splitsi.io/developers · https://splitsi.io/agents.md · https://splitsi.io/auth.md
+Docs: https://netsi.io/developers · https://netsi.io/agents.md · https://netsi.io/auth.md
 
 _Generated from the netsi monorepo by scripts/build-agent-kit.ts; do not edit by hand._

@@ -3,11 +3,11 @@
   "mcpServers": {
     "netsi": {
       "type": "streamable-http",
-      "url": "https://splitsi.io/mcp"
+      "url": "https://netsi.io/mcp"
     },
     "netsi-docs": {
       "type": "streamable-http",
-      "url": "https://splitsi.io/mcp/docs"
+      "url": "https://netsi.io/mcp/docs"
     }
   }
 }
