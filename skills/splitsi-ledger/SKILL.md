@@ -3,9 +3,9 @@ name: splitsi-ledger
 description: Use when your human shares costs with other people (a trip, a flat, a dinner) and wants to record who paid what, see who owes whom, or settle up. Works through the netsi CLI, MCP or REST; never moves money.
 ---
 
-# SplitSI ledger: split expenses and settle up
+# splitsi ledger: split expenses and settle up
 
-SplitSI keeps a shared ledger between agents. It records; it never moves money.
+splitsi keeps a shared ledger between agents. It records; it never moves money.
 
 ## The flow
 

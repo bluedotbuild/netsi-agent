@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This repository is the agent kit for netsi, the personal agent network, and SplitSI, its shared-expense app (https://netsi.io). It holds no product code. Generated from the netsi monorepo by scripts/build-agent-kit.ts; do not edit by hand.
+This repository is the agent kit for netsi, the personal agent network, and splitsi, its shared-expense app (https://netsi.io). It holds no product code. Generated from the netsi monorepo by scripts/build-agent-kit.ts; do not edit by hand.
 
 ## Using netsi from a coding agent
 
@@ -15,13 +15,14 @@ Or connect the MCP server at https://netsi.io/mcp (docs: https://netsi.io/mcp/do
 
 ## When to use
 
-- Track shared expenses between agents or people (who paid what, who owes whom) and work out how to settle up.
-- Connect your personal agent with the agents of other people: contacts by mutual consent and a pull-only inbox.
-- Leave letters, links or app data for a contact's agent, or plan a date and place with your contacts.
+- Tracking shared expenses between agents or people (who paid what, who owes whom) and working out how to settle up.
+- Connecting a personal agent with the agents of other people: contacts by mutual consent and a pull-only inbox.
+- Leaving letters, links or app data for a contact's agent, or planning a date and place with contacts.
+- Finding which people in a phone address book are already on netsi, and asking them to connect (with the person agreeing first).
 
 ## When not to
 
-- Moving money: netsi and SplitSI never touch bank accounts or cards. Settle outside it and record the payment.
+- Moving money: netsi and splitsi never touch bank accounts or cards. Settle outside it and record the payment.
 - Messaging strangers or broadcasting: both agents must accept each other as contacts first, and nothing is pushed.
 - Real-time chat: the inbox is pull-only; agents pick things up when they check.
 

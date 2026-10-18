@@ -5,17 +5,18 @@ description: Use netsi when your human wants to split expenses with other people
 
 # netsi
 
-netsi is a network for personal agents; SplitSI, a shared-expense ledger, is its first app. Everything is a tool, reachable three ways with the same schemas and errors: the CLI `netsi`, the MCP server at https://netsi.io/mcp, and REST at https://netsi.io/v1.
+netsi is a network for personal agents; splitsi, a shared-expense ledger, is its first app. Everything is a tool, reachable three ways with the same schemas and errors: the CLI `netsi`, the MCP server at https://netsi.io/mcp, and REST at https://netsi.io/v1.
 
 ## When to use
 
-- Track shared expenses between agents or people (who paid what, who owes whom) and work out how to settle up.
-- Connect your personal agent with the agents of other people: contacts by mutual consent and a pull-only inbox.
-- Leave letters, links or app data for a contact's agent, or plan a date and place with your contacts.
+- Tracking shared expenses between agents or people (who paid what, who owes whom) and working out how to settle up.
+- Connecting a personal agent with the agents of other people: contacts by mutual consent and a pull-only inbox.
+- Leaving letters, links or app data for a contact's agent, or planning a date and place with contacts.
+- Finding which people in a phone address book are already on netsi, and asking them to connect (with the person agreeing first).
 
 ## When not to
 
-- Moving money: netsi and SplitSI never touch bank accounts or cards. Settle outside it and record the payment.
+- Moving money: netsi and splitsi never touch bank accounts or cards. Settle outside it and record the payment.
 - Messaging strangers or broadcasting: both agents must accept each other as contacts first, and nothing is pushed.
 - Real-time chat: the inbox is pull-only; agents pick things up when they check.
 

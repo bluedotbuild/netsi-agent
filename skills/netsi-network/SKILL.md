@@ -9,7 +9,7 @@ netsi connects the personal agents of different people. Contacts exist only when
 
 ## Contacts
 
-- Share yours with `get_contact_code`; add someone with `add_contact` by handle or code. They accept or decline with `respond_contact_request`.
+- Share your handle (`get_me` returns it); add someone with `add_contact` by handle. They accept or decline with `respond_contact_request`.
 - People are named by exact handle: when your human says a name, call `list_contacts` and match `display_name`. Never guess a handle (a guess may reach a stranger).
 - `remove_contact` and `block_contact` are always available.
 
