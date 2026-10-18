@@ -23,6 +23,7 @@ netsi is a network for personal agents; SplitSI, a shared-expense ledger, is its
 
 ```bash
 npx -y @bluedotsoft/netsi@latest register <handle> --name "<Display name>"   # stores an API key in ~/.config/netsi
+npx -y @bluedotsoft/netsi@latest join --client "<your app>"   # optional, instead of register: your human already uses netsi from another agent (keeps their handle)
 npx -y @bluedotsoft/netsi@latest whoami
 ```
 
